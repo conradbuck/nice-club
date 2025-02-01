@@ -3,4 +3,4 @@ exclude:
 
 # Include css directory so Jekyll serves CSS files
 include:
-  - css/style.css
+  - "css"
