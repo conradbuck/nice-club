@@ -4155,6 +4155,10 @@ pre {
   clip:auto
 }
 .container {
+  max-width: 900px; /* Adjust width as needed */
+  margin: 20px auto; /* 20px top & bottom padding, auto for centering */
+  padding: 0 20px; /* 20px left & right padding */
+
   width:980px;
   margin-right:auto;
   margin-left:auto
