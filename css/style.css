@@ -4,14 +4,29 @@
   -webkit-text-size-adjust:100%
 }
 .banner {
-  width: 100%;              /* Full-width banner */
-  height: 300px;            /* Control the height */
-  overflow: hidden;         /* Hide any overflow if the image doesn't fit */
+  width: 100%;               /* Makes the banner span the full width */
+  height: 300px;             /* Controls the height of the banner */
+  overflow: hidden;          /* Ensures the image doesn't overflow outside the container */
+  position: relative;        /* Needed to position the pseudo-element correctly */
 }
+
+/* Fade-out border effect */
+.banner::after {
+  content: "";               /* Necessary for a pseudo-element */
+  position: absolute;        /* Position it at the bottom */
+  bottom: 0;                 /* Align it at the bottom of the container */
+  left: 0;                   /* Stretch it across the entire width */
+  width: 100%;               /* Full width of the banner */
+  height: 50px;              /* Height of the fade-out effect */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  /* Fade from transparent to white */
+  pointer-events: none;      /* Ensures the fade effect doesn't interfere with user interaction */
+}
+
 .banner img {
-  width: 100%;              /* Image takes up the full width */
-  height: 100%;             /* Image height adjusts to container height */
-  object-fit: cover;        /* Ensures the image covers the area */
+  width: 100%;               /* Makes the image span the full width of the container */
+  height: 100%;              /* Ensures the image stretches to fill the container's height */
+  object-fit: cover;         /* Ensures the image covers the area without distortion (cropping is possible) */
 }
 body {
   margin:0
