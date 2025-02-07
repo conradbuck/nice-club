@@ -3,13 +3,12 @@
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
 }
-banner {
+.banner {
   width: 100%;              /* Full-width banner */
   height: 300px;            /* Control the height */
   overflow: hidden;         /* Hide any overflow if the image doesn't fit */
 }
-
-banner img {
+.banner img {
   width: 100%;              /* Image takes up the full width */
   height: 100%;             /* Image height adjusts to container height */
   object-fit: cover;        /* Ensures the image covers the area */
