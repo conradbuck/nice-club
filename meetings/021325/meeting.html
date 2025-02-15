@@ -43,13 +43,9 @@
       grid-template-columns: 1;
       gap: 20px;
       margin: 20px 0;
-      place-items: center;
-    }
-    .gallery-item {
-      text-align: center;
     }
     .gallery img {
-      width: 60%;
+      width: 100%;
       height: auto;
       aspect-ratio: 1 / 1; /* Forces images to be square */
       object-fit: cover;   /* Ensures the image is cropped appropriately */
@@ -98,7 +94,7 @@
     .content-container {
       display: grid;
       grid-template-columns: 1fr 1fr; /* Allocates proper space */
-      gap: 30px; /* Keeps elements close */
+      gap: 10px; /* Keeps elements close */
     }
 </style>
 
@@ -107,26 +103,40 @@
   <h1><a href="https://conradbuck.github.io/nice-club/">
     <p style="font-weight: 1000;color:rebeccapurple">NiCE Club @ UC Berkeley</p></a></h1>
 
-  <section id="portrait">
-    <h2>N.i.C.E. club featured on Reddit</h2>
-    <div class="gallery">
-      <div class="gallery-item">
-      <a href="https://www.reddit.com/r/nuclear/comments/1iesd39/students_from_uc_berkeley_call_to_legalize/" target="_blank">
-        <img src="https://preview.redd.it/students-from-uc-berkeley-call-to-legalize-nuclear-energy-v0-63fpkwppwege1.jpg?width=1463&format=pjpg&auto=webp&s=e2dcab3aa16cde198de5c659ba8d238fe48b4190" alt="alternative text">
-        <p>The nice club members posing with their letters in Etcheverry 3106</p>
-      </a>
+  <section id="highlights">
+    <h2>Meeting - 13 Feb 2025</h2>
+    <h3><i>Valentine's Social</i></h3>
+    <div class="content-container">
+      <div>
+      <h4>Notes from the meeting:</h4>
+      <ul style="margin-left: 20px;">
+        <li>12 people were in attendance</li>
+        <li>we ate yellow cake cupcakes</li>
+      </ul>
       </div>
-    </div>
-  </section>
-  <section id="bio">
-    <h3>More Info</h3>
-    <p>A member of the nice club posted about our letter writing campaign on r/nuclear and it is now one of the most popular posts on the subreddit.</p>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="https://www.nationaldaycalendar.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:eco%2Cw_768/MjA0MTYwMDAyMzI2Mjc1NzI0/website-feature---valentines-day--february-14.png" alt="alternative text">
+          <p>A valentines day stock image until our digitals are organized.</p>
+        </div>
+      </div>   
   </section>
 
-
+  <section id="notes">
+    <h3>Additional Notes from the Meetings</h3>
+    <p>We all decorated cupcakes and had a good time.</p>
+  </section>
+  
   <section id="links">
     <h3>Reference Links</h3>
-      <a href="https://www.reddit.com/r/nuclear/comments/1iesd39/students_from_uc_berkeley_call_to_legalize/" target="_blank"><h4><strong>Link to original post here.</strong></h4></a>
+
+      <a href="refLinkOne" target="_blank"><h4><strong>displayNameOfLink</strong></h4></a>
+        <ul style="margin-left: 20px;">
+          <li>fact1</li>
+          <li>fact2</li>	
+          <li><a href="linkToAsset" target="_blank">hyperlinkFactThree</a></li>
+        </ul>
   </section>
 
 </div>
