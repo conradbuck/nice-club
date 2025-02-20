@@ -2,39 +2,31 @@
 
   <section id="about">
     <h2>Nuclear is Clean Energy <strong>N.i.C.E.</strong></h2>
-      <p>Founded in 2023, NiCE club is the leading student voice for <a href="#advocacy">pro-nuclear advocacy</a> on the UC Berkeley Campus. Our <a href="#meetings">meetings</a> engage with a wide variety of activities from advocacy and speaker events, extending to club socials and industry field trips.</p>
+      <p>Founded in 2023, NiCE club is the leading student voice for pro-nuclear advocacy on the UC Berkeley Campus. Our meetings engage with a wide variety of activities from advocacy and speaker events, extending to club socials and industry field trips.</p>
   </section>
 
-  <section id="meetings">
-    <h2>Club Meetings</h2>
-      <p>We meet weekly on Thursdays, typically in Etcheverry Hall.</p>
-      <div class="blog-box">
-        <a href="./meetings/013025/meeting.html">30 Jan 2025 - Letter Writing Campaign</a>
-        <!-- commented until the become relevant
-        <a href="blog-post2.html">📖 Blog Post 2</a>
-        <a href="blog-post3.html">📖 Blog Post 3</a>
-        -->
-        <a href="./meetings/meeting-home.html" class="view-all">View All Meeting Posts >>></a>
-      </div>
-  </section>
 
-  <section id="advocacy">
-    <h2>Advocacy Work</h2>
-    <p>See some of our advocacy work in the City of Berkeley and State of California</p>
-    <div class="gallery">
-      <div class="gallery-item">
-      <a href="./meetings/013025/meeting.html">
-        <img src="./meetings/013025/group.jpg" alt="alternative text">
-        <p>Representatives Letter Writing</p>
-      </a>
-      </div>
-    </div>
-  </section>
+# NiCE Club Database Website Template
+## This github repository has all of the files you need to deploy a simple website for your own NiCE club.
 
-  <section id="events">
+## Website structure
+- Overview of the topic
+- Purpose and objectives
+- Key considerations
 
-  </section>
-  
-  
+## Included webpage templates
+- home page with several sections highlighting specific club work that link to subpages focusing on a specific topic and an image and bold font header
+- meeting.html template that is formatted for an image, bullet points, long form text summary and reference links.
+- blog.html template that is formatted for a single image with two text columns
 
-</body>
+## How to use
+- download this github repo as a .zip file to your computer
+- delete the included .git folder and initialize your own local git repository
+- push your local git repository to a remote repository on your own github account
+- enable github pages deployment under Repository Settings > Pages > Deploy from a branch >> select "main"
+- The website is deployed!
+
+## How to add new subpages
+- copy a meeting.html or blog.html template from the templates folder into its associated topic folder (meetings, blog, etc.)
+- make necessary content changes in the .html file
+- reference the new .html file in the meetings-home.html or events.html to ensure that it can be found through the website
