@@ -9,11 +9,6 @@
 # NiCE Club Database Website Template
 ## This github repository has all of the files you need to deploy a simple website for your own NiCE club.
 
-## Website structure
-- Overview of the topic
-- Purpose and objectives
-- Key considerations
-
 ## Included webpage templates
 - home page with several sections highlighting specific club work that link to subpages focusing on a specific topic and an image and bold font header
 - meeting.html template that is formatted for an image, bullet points, long form text summary and reference links.
@@ -30,3 +25,4 @@
 - copy a meeting.html or blog.html template from the templates folder into its associated topic folder (meetings, blog, etc.)
 - make necessary content changes in the .html file
 - reference the new .html file in the meetings-home.html or events.html to ensure that it can be found through the website
+- commit and push to see the changes on the website
