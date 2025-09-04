@@ -125,26 +125,7 @@
   <!-- Main -->
   <main id="content" role="main">
     <div class="wrap" style="background-color:var(--c4);">
-        
-        <h1 style="text-align: center;">Contact Us</h1>
 
-        <p>To obtain more information on this campaign, or to inquire where petition gatherers will be, please contact: </p>
-
-        <p>petition@niceucb.com</p>
-
-        <p>Where to Find Circulators This Week (6/29 & 6/30)</p>
-
-        <p>
-        6/29<br>
-        Downtown Berkeley Farmers Market<br>
-<br>
-        6/30<br>
-<br>
-        Traders Joe’s – University Ave (Early Afternoon)<br>
-        Berkeley Bowl (Shattuck) (Late Afternoon/Evening)<br>
-<br>
-        Our circulators are VOLUNTEERS and they are NOT PAID<br>
-        </p>
     </div>
   </main>
 
@@ -153,7 +134,7 @@
     <div class="wrap">
       <p>
         Paid for by
-        <u><a class="internal" href="./funding.html">
+        <u><a class="internal" href="./funding/">
           Citizens for Amend the Nuclear Free Berkeley Act
         </a></u><br>
         FPPC Committee ID – <a href="https://public.netfile.com/pub2/?aid=BRK" rel="noopener">1469033</a> (Not Yet Qualified)<br>
