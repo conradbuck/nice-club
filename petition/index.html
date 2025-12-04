@@ -59,13 +59,16 @@
     }
     /* Sticky background on the main content area (mobile-first) */
     #content{
-      background: linear-gradient(rgba(255,255,255,0.86), rgba(255,255,255,0.86)), url("./Berkeley_cityscape.jpg") center/cover no-repeat fixed;
-      background-attachment: fixed;
+      /* show the image with the translucent white overlay; keep it sticky where supported,
+         and size the image so its height matches the viewport */
+      background: linear-gradient(rgba(255,255,255,0.86), rgba(255,255,255,0.86)), url("./Berkeley_cityscape.jpg") center center / auto 100vh no-repeat fixed;
       padding-bottom: 48px; /* add breathing room above the footer */
     }
-    /* On small screens, disable fixed attachment for better performance */
+    /* On small screens, background-attachment:fixed is often ignored or
+       causes issues; let it scroll there but keep the image height fitting
+       the viewport so it still appears vertically fitted. */
     @media (max-width:640px){
-      #content{background-attachment:scroll;}
+      #content{ background-attachment:scroll; background-size: auto 100vh; }
     }
     header{padding:18px 0; border-bottom:1px solid #e6eaee; background:var(--c5);}
     .brand{display:flex; align-items:center; gap:12px; text-decoration:none;}
@@ -440,15 +443,15 @@
         </div>
         <div id="join_content">
 
-          <div class="join_content_box">
+          <a class="join_content_box" href="./contact.html">
             <div class="join_content_text">Volunteer</div>
-          </div>
+          </a>
           <a class="join_content_box" href="https://secure.actblue.com/donate/amend-nuclear" target="_blank" rel="noopener noreferrer">
             <div class="join_content_text">Donate</div>
           </a>
-          <div class="join_content_box">
+          <a class="join_content_box" href="https://forms.gle/bpfVZmp4nJTY5Trv9">
             <div class="join_content_text">Order a Petition Packet</div>
-          </div>
+          </a>
 
         </div>
       </div>
